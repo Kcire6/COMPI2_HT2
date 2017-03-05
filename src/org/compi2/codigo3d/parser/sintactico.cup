@@ -23,8 +23,9 @@ action code
 :}
 
 terminal String ID, ENTERO, DECIMAL;
-terminal TokenC3D MAS, MENOS, MULT, DIV, POT, PAR_IZQ, PAR_DER;
+terminal TokenC3D MAS, MENOS, MULT, DIV, POT, PAR_IZQ, PAR_DER, IGUAL, DIF, MAYOR, MENOR, MAYIG, MENIG, AND, OR, NOT;
 nonterminal NodoC3D inicial, expresion;
+
 
 precedence left MAS, MENOS;
 precedence left MULT, DIV; 
